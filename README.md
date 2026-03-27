@@ -88,6 +88,9 @@ https://realpython.com/get-started-with-fastapi/
 # difference between flask and fast api
 While both flask and fast api are Python-based, the fundamental difference lies in their philosophy: Flask is a "micro-framework" that prioritizes simplicity and flexibility, requiring developers to manually handle data validation and documentation, whereas FastAPI is a modern, high-performance framework built for speed and efficiency. FastAPI leverages Python's type hints to provide automatic data validation and interactive Swagger documentation out-of-the-box, features that usually require extra libraries in Flask. Furthermore, FastAPI is natively asynchronous, making it significantly faster at handling multiple simultaneous requests compared to Flask’s traditionally synchronous architecture.
 
+# real world example
+In this toolkit, I implemented both GET and POST methods to demonstrate the full lifecycle of data. I used the GET method for the /joke and /greet endpoints because they are designed to retrieve information from the server to show the user. In contrast, I used the POST method for the /submit-feedback endpoint. This allows a user to securely send their own data (their name and comments) to the server, which is the standard practice for handling user input and form submissions.This is my example for the real world experience for fast api
+
 
 
 
